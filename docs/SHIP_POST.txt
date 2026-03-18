@@ -1,0 +1,15 @@
+Post this in #blueprint-drafts on Hack Club Slack:
+
+Hackpad name: Nyx Pad
+
+GitHub Repo: https://github.com/thealxlabs/nyxpad
+
+Description:
+A 6-key DIY Stream Deck powered by Conductor — my own AI integration CLI.
+Each key triggers a plugin (weather, crypto, GitHub, system stats, translate,
+jokes). The 0.91" OLED shows Nyx as a pixel art mascot that reacts to every
+keypress. 3 profiles (Code/Chill/Meet), key hold actions, Pomodoro timer,
+and a screensaver where Nyx bats a hexagon around then falls asleep.
+Built on Seeed XIAO RP2040 with KMK firmware.
+
+[attach screenshot of PCB + case render]

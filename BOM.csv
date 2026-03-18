@@ -1,0 +1,10 @@
+Reference,Value,Quantity,Footprint,Link
+U1,Seeed XIAO RP2040,1,Seeed:XIAO-RP2040,https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
+U2,SSD1306 OLED 128x32,1,PinHeader_1x04,https://www.amazon.com/dp/B08ZY4YBHL
+K1-K6,Cherry MX Switch,6,MX:MX-1U-PCB,https://www.amazon.com/dp/B07K7T4PTG
+ENC1,EC11 Rotary Encoder,1,EC11,https://www.amazon.com/dp/B07D3D64X7
+R1-R2,4.7k Resistor 0402,2,R_0402,https://www.amazon.com/dp/B07YDFBX7H
+C1,100nF Capacitor 0402,1,C_0402,https://www.amazon.com/dp/B089W4G6M1
+PCB,Custom 80x70mm 2-layer,1,N/A,https://jlcpcb.com
+Case,3D Printed PLA/PETG,1,N/A,Self-printed
+MH1-MH4,M2.5 Screw 6mm,4,N/A,Hardware store

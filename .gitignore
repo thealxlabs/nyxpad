@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# KiCAD
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.bak
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Production outputs (add manually)
+production/gerbers/
+
+# Node (for Conductor)
+node_modules/

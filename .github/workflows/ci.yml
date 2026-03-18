@@ -1,0 +1,33 @@
+name: Nyx Pad CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-firmware:
+    runs-on: ubuntu-latest
+    name: Validate Firmware
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: |
+          python -m py_compile Firmware/main.py
+          python -m py_compile Firmware/bridge.py
+          echo "✓ Firmware syntax valid"
+
+  validate-pcb:
+    runs-on: ubuntu-latest
+    name: Validate PCB files
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check PCB files exist
+        run: |
+          test -f PCB/nyxpad.kicad_pcb && echo "✓ PCB file exists"
+          test -f PCB/nyxpad.kicad_sch && echo "✓ Schematic exists"
+          test -f BOM.csv && echo "✓ BOM exists"
